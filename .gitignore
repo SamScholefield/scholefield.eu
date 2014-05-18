@@ -1,4 +1,5 @@
 data
+procfile
 
 lib-cov
 *.seed
