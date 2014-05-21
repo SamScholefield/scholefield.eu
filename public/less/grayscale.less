@@ -1,6 +1,6 @@
 // Variables
 
-@primary: #86B3BF;
+@primary: #45AFBF;
 @dark: #2D3C40;
 @light: #B3EFFF;
 
@@ -8,14 +8,16 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
 body {
     width: 100%;
     height: 100%;
     font-family: 'PT Sans Narrow', sans-serif;
     color: @dark;
     //background-color: @light;
-    background-image: url(../img/green-cup.png) repeat;
+    //background-image: url(../img/green-cup.png) repeat;
 }
 
 html {
@@ -39,11 +41,11 @@ h6 {
 }
 
 .brand-heading{
-    color: @primary;
+    color: @dark;
 }
 
 .intro-text{
-    color: @dark;
+    color: @primary;
 }
 
 p {
@@ -81,7 +83,7 @@ a:focus {
 
  .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
     text-transform: uppercase;
     font-family: 'PT Sans', sans-serif;
     background-color: @dark;
@@ -109,7 +111,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
 }
 
 .navbar-toggle {
@@ -140,7 +142,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
     }
 }
 
@@ -196,10 +198,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid @primary;
+    border: 2px solid @dark;
     border-radius: 35px;
     font-size: 40px;
-    color: @primary;
+    color: @dark;
     background: transparent;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -209,7 +211,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: none;
-    color: @primary;
+    color: @dark;
     background: rgba(255,255,255,0.1);
 }
 
