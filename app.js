@@ -2,7 +2,7 @@
 /**
  * Module dependencies.
  */
-//require('newrelic');
+require('newrelic');
 var express = require('express');
 var connect = require('connect');
 var routes = require('./routes');
